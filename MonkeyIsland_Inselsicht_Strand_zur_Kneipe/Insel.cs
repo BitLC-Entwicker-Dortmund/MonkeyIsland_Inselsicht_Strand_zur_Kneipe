@@ -10,6 +10,7 @@ namespace MonkeyIsland_Inselsicht_Strand_zur_Kneipe {
         private Strand strand = new Strand();
         // Spielfigur ParkPlatz
         private Spielfigur sfpp;
+        private Schiff schiff;
 
         public void SetKneipe(Kneipe kneipe) {
             this.kneipe = kneipe;
@@ -34,5 +35,14 @@ namespace MonkeyIsland_Inselsicht_Strand_zur_Kneipe {
         public Spielfigur GetSfpp() {
             return this.sfpp;
         }
+
+        public void SetSchiff(Schiff f) {
+            this.schiff = f;               
+        }
+
+        public Schiff GetSchiff() {
+            return this.schiff;
+        }
+
     }
 }
